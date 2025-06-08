@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://pure-electric-japan.github.io/sitemap-index.xml
