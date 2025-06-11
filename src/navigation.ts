@@ -100,19 +100,19 @@ export const headerData = {
         //   text: 'Article (with MDX)',
         //   href: getPermalink('markdown-elements-demo-post', 'post'),
         // },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
+        // {
+        //   text: 'Category Page',
+        //   href: getPermalink('tutorials', 'category'),
+        // },
+        // {
+        //   text: 'Tag Page',
+        //   href: getPermalink('astro', 'tag'),
+        // },
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Shop',
+      href: 'https://pureelectric.jp/',
     },
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
@@ -158,7 +158,7 @@ export const footerData = {
         // { text: 'About', href: '#' },
         { text: 'Blog', href: '#' },
         // { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
+        // { text: 'Press', href: '#' },
         // { text: 'Inclusion', href: '#' },
         // { text: 'Social Impact', href: '#' },
         { text: 'Shop', href: 'https://pureelectric.jp/' },
@@ -173,7 +173,11 @@ export const footerData = {
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/pureelectricjp?t=GefYnlnJmZGSSZ9oHVqMIg&s=05' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/pureelectricjapan?igsh=MTcwYzR0YzNlMTlqcg%3D%3D' },
     // { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'Youtube', icon: 'tabler:brand-youtube', href: 'https://youtube.com/@pureelectricjapan?si=dYOUK7Gd7KmWSDCM' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/104805718/admin/page-posts/published/' },
+    // https://youtube.com/@pureelectricjapan?si=dYOUK7Gd7KmWSDCM
+    // https://www.linkedin.com/company/104805718/admin/page-posts/published/
     // { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `Copyright © 2025 Pure Electric. All rights reserved.`,
